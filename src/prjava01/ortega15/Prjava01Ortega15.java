@@ -15,7 +15,7 @@ public class Prjava01Ortega15 {
 
     public static void main(String[] args) throws IOException {
         
-        File f = new File("prj011-ortega15.html"); 
+        File f = new File("prj01-ortega15.html"); 
         
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(f))) { 
             bw.write("<html>");bw.newLine(); bw.write(" <head>");
